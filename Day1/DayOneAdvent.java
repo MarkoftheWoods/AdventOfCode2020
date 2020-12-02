@@ -1,16 +1,14 @@
+package Day1;
+
 import java.io.*;
-import java.net.URL;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import javax.net.ssl.HttpsURLConnection;
-
-
 public class DayOneAdvent {
 
     public static void main(String[] args) {
-        ArrayList<Integer> data = readDataFromFile("input1.txt");
+        ArrayList<Integer> data = readDataFromFile("Day1/input1.txt");
         
         Integer solution1 = findSolutionOne(data);
         Integer solution2 = findSolutionTwo(data);
